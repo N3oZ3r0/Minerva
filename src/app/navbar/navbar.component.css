@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #F5DF4E;
+}
+
+#boton-login {
+    width: 25%;
+}
+
+#logo {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.item1 {
+    grid-row: 1;
+}
+
+.item2 {
+    grid-row: 1;
+    justify-self: end;
+}
