@@ -1,5 +1,9 @@
 .navbar {
     background-color: #F5DF4E;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #boton-login {
@@ -11,15 +15,23 @@
 }
 
 .grid-container {
-    display: grid;
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: space-between;
 }
 
 .item1 {
-    grid-row: 1;
+    display: flex;
+    margin-left: 10px;
 }
 
 .item2 {
-    grid-row: 1;
-    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
 }

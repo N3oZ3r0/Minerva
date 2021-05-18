@@ -31,7 +31,7 @@
 .app-logo {
     background: url("../../assets/images/logo.png");
     background-repeat: no-repeat;
-    max-width: 100%;
+    max-width: 80%;
     background-position: center;
     background-size: contain;
     width: 400px;
