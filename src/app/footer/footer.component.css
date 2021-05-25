@@ -1,5 +1,9 @@
 .navbar {
     background-color: #F5DF4E;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 footer {
@@ -7,4 +11,40 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+#boton-home {
+    width: 25%;
+}
+
+#boton-like {
+    width: 25%;
+}
+
+#boton-files {
+    width: 25%;
+}
+
+#boton-bars {
+    width: 25%;
+}
+
+.item1 {
+    display: flex;
+    justify-content: center;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+}
+
+.item3 {
+    display: flex;
+    justify-content: center;
+}
+
+.item4 {
+    display: flex;
+    justify-content: center;
 }

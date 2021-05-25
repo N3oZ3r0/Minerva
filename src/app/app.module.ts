@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    SplashScreenComponent
+    SplashScreenComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
