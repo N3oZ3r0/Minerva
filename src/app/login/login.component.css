@@ -1,0 +1,53 @@
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+.rowRegisterBottom{
+    margin-top: 20px;
+    margin-left: -55px;
+}
+.titleRegister{
+    font-size: 25px;
+    color: #3C6E71;
+}
+.colreg{
+    margin-top: 15px;
+}
+input{
+    padding: 10px 12px 10px 12px;
+    border: 1px solid #3C6E71;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+input:hover,
+input:focus{
+    border: 1px solid #3C6E71;
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+.btn-yellow{
+    background-color: #F5DF4E;
+    padding:10px 30px 10px 30px;
+    color: #3C6E71;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.linkRegister{
+    color:#3C6E71;
+}
+.btn-yellow:hover {
+    background-color: #3C6E71;
+    color: #F5DF4E;
+    cursor: pointer
+}

@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CarouselComponent } from './carousel/carousel.component';
     NavbarComponent,
     FooterComponent,
     SplashScreenComponent,
-    CarouselComponent
+    CarouselComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
