@@ -10,6 +10,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ApunteComponent } from './apunte/apunte.component';
+import { CrearApunteComponent } from './crear-apunte/crear-apunte.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ApunteComponent } from './apunte/apunte.component';
     CarouselComponent,
     RegisterComponent,
     LoginComponent,
-    ApunteComponent
+    ApunteComponent,
+    CrearApunteComponent
   ],
   imports: [
     BrowserModule,
