@@ -9,6 +9,7 @@ import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { ApunteComponent } from './apunte/apunte.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './login/login.component';
     SplashScreenComponent,
     CarouselComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    ApunteComponent
   ],
   imports: [
     BrowserModule,
