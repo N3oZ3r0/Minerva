@@ -1,21 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 
-// import Swiper core and required modules
+
 import SwiperCore, { Pagination } from "swiper/core";
 
-// install Swiper modules
 SwiperCore.use([Pagination]);
 
 @Component({
   selector: 'app-swiper',
   templateUrl: './swiper.component.html',
-  styleUrls: ['./swiper.component.css']
+  styleUrls: ['./swiper.component.css'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class SwiperComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSwiper(swiper: any) {
+    console.log(swiper);
+  }
+  onSlideChange() {
+    console.log('slide change');
   }
 
 }

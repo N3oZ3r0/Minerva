@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { LikeComponent } from './like/like.component';
 import { FilesComponent } from './files/files.component';
 import { BarsComponent } from './bars/bars.component';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BarsComponent } from './bars/bars.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
