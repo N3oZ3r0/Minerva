@@ -11,6 +11,8 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ApunteComponent } from './apunte/apunte.component';
 import { CrearApunteComponent } from './crear-apunte/crear-apunte.component';
+import { BusquedaAvanzadaComponent } from './busqueda-avanzada/busqueda-avanzada.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CrearApunteComponent } from './crear-apunte/crear-apunte.component';
     RegisterComponent,
     LoginComponent,
     ApunteComponent,
-    CrearApunteComponent
+    CrearApunteComponent,
+    BusquedaAvanzadaComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
