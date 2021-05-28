@@ -1,7 +1,35 @@
-.img-editar-datos{
+.img-editar-perfil{
     height: 40px;
     width: 40px;
 }
+.img-perfil{
+    height: 70px;
+    width: 70px;
+}
 .link-perfil{
     text-decoration: none;
+    margin-left: 10px;
+}
+.user-perfil{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.usuario-row{
+    margin-top: 50px;
+    margin-bottom: 75px;
+    margin-left: 30px;
+}
+.perfil-container{
+    margin-left: 30px;
+}
+.link-borrar{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -35px;
+    margin-top: 70px;
+    color: red;
+    font-size: 17px;
 }
