@@ -39,22 +39,8 @@ a {
     cursor: pointer
 }
 
-.btn-yellow {
-    background-color: #F5DF4E;
-    padding: 10px 25px 10px 25px;
-    color: #3C6E71;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
 .linkRegister {
     color: #3C6E71;
-}
-
-.btn-yellow:hover {
-    background-color: #3C6E71;
-    color: #F5DF4E;
-    cursor: pointer
 }
 
 .swiper-container {
@@ -68,4 +54,18 @@ a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 30px;
+}
+
+.btn-yellow {
+    background-color: #F5DF4E;
+    padding: 10px 25px 10px 25px;
+    color: #3C6E71;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-yellow:hover {
+    background-color: #3C6E71;
+    color: #F5DF4E;
+    cursor: pointer
 }
