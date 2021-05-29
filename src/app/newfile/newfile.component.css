@@ -1,0 +1,88 @@
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+
+.rowRegisterBottom {
+    margin-top: 20px;
+}
+
+.titleRegister {
+    font-size: 25px;
+    color: #3C6E71;
+}
+
+input,
+.form-control {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid #3C6E71;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+.input-description {
+    padding-bottom: 70px;
+}
+
+input:hover,
+input:focus,
+.form-control:hover,
+.form-control:focus {
+    border: 1px solid #F5DF4E;
+}
+
+.btn-yellow {
+    background-color: #F5DF4E;
+    padding: 10px 20px 10px 20px;
+    color: #3C6E71;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline;
+}
+
+.btn-yellow:hover {
+    background-color: #3C6E71;
+    color: #F5DF4E;
+    cursor: pointer
+}
+
+.categoria-text {
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.add-img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 25px;
+}
+
+.link-apunte {
+    text-decoration: none;
+}
+
+.inicial-apunte {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-precio {
+    margin-left: -15px;
+    width: 80px;
+}
+
+option {
+    font-size: 12px;
+}
+
+.precio-txt {
+    font-size: 20px;
+}

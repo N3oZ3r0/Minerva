@@ -6,6 +6,13 @@
     justify-content: space-between;
 }
 
+nav {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
 #boton-login {
     width: 25%;
 }

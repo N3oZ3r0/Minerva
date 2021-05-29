@@ -13,6 +13,11 @@ import { LikeComponent } from './like/like.component';
 import { FilesComponent } from './files/files.component';
 import { BarsComponent } from './bars/bars.component';
 import { SwiperModule } from 'swiper/angular';
+import { SearchComponent } from './search/search.component';
+import { NewfileComponent } from './newfile/newfile.component';
+import { LoginComponent } from './login/login.component';
+import { ProfileComponent } from './profile/profile.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { SwiperModule } from 'swiper/angular';
     HomeComponent,
     LikeComponent,
     FilesComponent,
-    BarsComponent
+    BarsComponent,
+    SearchComponent,
+    NewfileComponent,
+    LoginComponent,
+    ProfileComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
