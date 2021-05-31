@@ -18,6 +18,9 @@ import { NewfileComponent } from './newfile/newfile.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
+import { ShowMyFileComponent } from './show-my-file/show-my-file.component';
+import { ChatComponent } from './chat/chat.component';
+import { ChatUserComponent } from './chat-user/chat-user.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { RegisterComponent } from './register/register.component';
     NewfileComponent,
     LoginComponent,
     ProfileComponent,
-    RegisterComponent
+    RegisterComponent,
+    ShowMyFileComponent,
+    ChatComponent,
+    ChatUserComponent
   ],
   imports: [
     BrowserModule,
