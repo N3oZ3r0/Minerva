@@ -1,0 +1,19 @@
+.file-row{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-icon{
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+.subtitle{
+    margin-top: 5px;
+    font-size: 17px;
+}
+.title{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: -2px;
+}
