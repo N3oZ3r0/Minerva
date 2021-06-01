@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\34633\minerva\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\34633\Documents\GitHub\Minerva\src\polyfills.ts */"hN/g");
 
 
 /***/ }),

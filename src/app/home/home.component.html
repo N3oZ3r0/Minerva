@@ -1,11 +1,29 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-4" style="background-color:#aaa">
-            <h1>Columna 1</h1>
-            <p>Esto es una prueba de bootstrap.</p>
+        <br><br><br>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <br>
+            <div class="input-group rounded">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                <span class="input-group-text" id="search-addon">
+              <i class="fas fa-search"></i>
+            </span>
+            </div>
+            <br>
         </div>
-        <div class="col-lg-4" style="background-color:#bbb">
-            <div class="swiper-container">
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <h1>Más descargados</h1>
+            <div class="swiper-container border">
                 <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
               clickable: true
             }" class="mySwiper">
@@ -66,10 +84,73 @@
                 </swiper>
             </div>
         </div>
-        <div class="col-lg-4" style="background-color:#ccc">
-            <h1>Columna 3</h1>
-            <p>Esto es una prueba de bootstrap.</p>
+    </div>
+    <div class="row">
+        <br><br><br>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <h1>Añadidos recientemente</h1>
+            <div class="swiper-container border">
+                <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
+            clickable: true
+          }" class="mySwiper">
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 1</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 2</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 3</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 4</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 5</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 6</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 7</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 8</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div>
+                            <p>PUTO SWIPER 9</p>
+                            <br>
+                        </div>
+                    </ng-template>
+                </swiper>
+            </div>
         </div>
     </div>
 </div>
-<app-swiper></app-swiper>

@@ -29,22 +29,20 @@
 }
 
 .app-logo {
-    background: url("../../assets/images/logo.png");
     background-repeat: no-repeat;
     max-width: 80%;
     background-position: center;
     background-size: contain;
     width: 400px;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .app-loader {
-    background: url("../../assets/images/three-dots.svg");
     background-repeat: no-repeat;
     max-width: 100%;
     background-position: center;
     background-size: contain;
     width: 80px;
-    height: 80px;
+    /* height: 80px; */
     margin-top: 80px;
 }
