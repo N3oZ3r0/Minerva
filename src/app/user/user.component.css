@@ -1,0 +1,39 @@
+.img-user{
+    height: 70px;
+    width: 70px;
+}
+.user-div{
+    float: left;
+}
+.img-div{
+    float: right;
+}
+.imgs{
+    height: 30px;
+    width: 30px;
+}
+.img-div-1{
+    padding: 5px;
+    display: inline-block;
+}
+.img-div-2{
+    padding: 5px;
+}
+.link-user{
+    font-size: 18px;
+    text-decoration: none;
+}
+.file-row{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-icon{
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+.subtitle{
+    margin-top: 5px;
+    font-size: 20px;
+}

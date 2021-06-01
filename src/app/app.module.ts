@@ -21,6 +21,7 @@ import { RegisterComponent } from './register/register.component';
 import { ShowMyFileComponent } from './show-my-file/show-my-file.component';
 import { ChatComponent } from './chat/chat.component';
 import { ChatUserComponent } from './chat-user/chat-user.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ChatUserComponent } from './chat-user/chat-user.component';
     RegisterComponent,
     ShowMyFileComponent,
     ChatComponent,
-    ChatUserComponent
+    ChatUserComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
