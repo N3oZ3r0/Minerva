@@ -1,0 +1,31 @@
+.p-container {
+    padding-right: 20px;
+}
+
+.img-user {
+    height: 50px;
+    width: 50px;
+}
+
+.link-user {
+    text-decoration: none;
+    font-size: 18px;
+}
+.link-group{
+    text-decoration: none;
+    font-size: 18px;
+}
+.chats {
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: #3C6E71;
+}
+.col-user{
+    margin-top: 10px;
+}

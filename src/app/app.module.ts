@@ -22,6 +22,9 @@ import { ShowMyFileComponent } from './show-my-file/show-my-file.component';
 import { ChatComponent } from './chat/chat.component';
 import { ChatUserComponent } from './chat-user/chat-user.component';
 import { UserComponent } from './user/user.component';
+import { FriendsComponent } from './friends/friends.component';
+import { FavFilesComponent } from './fav-files/fav-files.component';
+import { WalletComponent } from './wallet/wallet.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +46,10 @@ import { UserComponent } from './user/user.component';
     ShowMyFileComponent,
     ChatComponent,
     ChatUserComponent,
-    UserComponent
+    UserComponent,
+    FriendsComponent,
+    FavFilesComponent,
+    WalletComponent
   ],
   imports: [
     BrowserModule,

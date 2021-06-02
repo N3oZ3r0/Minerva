@@ -86,3 +86,25 @@ option {
 .precio-txt {
     font-size: 20px;
 }
+.modal-div-top{
+    float: right;
+}
+.modal-div-container{
+    display: inline-block;
+}
+.img-modal{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+	display:block;
+}
+.text-modal{
+    margin-top: 8px;
+    text-align: center;
+}
+.title-modal{
+    font-size: 19px;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: bold;
+}

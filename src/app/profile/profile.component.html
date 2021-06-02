@@ -8,17 +8,51 @@
     </div>
     <div class="perfil-container">
         <div class="row-4 mb-4">
-            <img href="#" src="../../assets/images/files.png" class="images img-fluid img-editar-perfil">
-            <a href="#" class="link-perfil text-dark">Editar datos personales</a>
+            <img href="#" data-bs-toggle="modal" data-bs-target="#desarrolloModal" src="../../assets/images/files.png" class="images img-fluid img-editar-perfil">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#desarrolloModal" class="link-perfil text-dark">Editar datos personales</a>
         </div>
         <div class="row-4 mb-4">
-            <img href="#" src="../../assets/images/files.png" class="images img-fluid img-editar-perfil">
-            <a href="#" class="link-perfil text-dark">Editar datos bancarios</a>
+            <img href="#" data-bs-toggle="modal" data-bs-target="#desarrolloModal" src="../../assets/images/files.png" class="images img-fluid img-editar-perfil">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#desarrolloModal" class="link-perfil text-dark">Editar datos bancarios</a>
         </div>
         <div class="row-4 mb-4">
-            <img href="#" src="../../assets/images/files.png" class="images img-fluid img-editar-perfil">
-            <a href="#" class="link-perfil text-dark">Enviar informe</a>
+            <img href="#" data-bs-toggle="modal" data-bs-target="#desarrolloModal" src="../../assets/images/files.png" class="images img-fluid img-editar-perfil">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#desarrolloModal" class="link-perfil text-dark">Enviar informe</a>
         </div>
-        <a href="#" class="link-borrar">Eliminar cuenta</a>
+        <a href="#" class="link-borrar" data-bs-toggle="modal" data-bs-target="#deleteAccount">Eliminar cuenta</a>
+    </div>
+</div>
+<!-- Modal Delete account-->
+<div class="modal fade" id="deleteAccount" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-div-top">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-div-container">
+                    <img src="../../assets/images/files.png" class="images img-fluid img-modal">
+                    <p class="title-modal">Email enviado</p>
+                    <p class="text-modal">Le hemos enviado un email, revíselo y confirme la eliminación de la cuenta</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Desarrollo-->
+<div class="modal fade" id="desarrolloModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-div-top">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-div-container">
+                    <img src="../../assets/images/files.png" class="images img-fluid img-modal">
+                    <p class="title-modal">Atención</p>
+                    <p class="text-modal">Esta parte se encuentra aun en desarrollo</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

@@ -32,9 +32,28 @@
             </div>
             <div class="row mb-3 px-3 rowRegisterBottom">
                 <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-yellow">Subir apunte</button>
+                    <button type="submit" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#uploadFile">Subir apunte</button>
                 </div>
             </div>
         </div>
     </form>
+</div>
+<br>
+<br>
+<!-- Modal upload file-->
+<div class="modal fade" id="uploadFile" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-div-top">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-div-container">
+                    <img src="../../assets/images/files.png" class="images img-fluid img-modal">
+                    <p class="title-modal">Apunte subido</p>
+                    <p class="text-modal">El nuevo apunte se ha subido correctamente</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
