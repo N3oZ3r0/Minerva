@@ -1,5 +1,21 @@
 <nav class="navbar" aria-label="First navbar example">
     <a class="item1"><img id="logo" src="assets/images/logo.png" alt="Logo Minerva"></a>
+    <li class="sub-menus"><a href="#"> Services</a>
+        <ul>
+            <li><a href="#">Blogging</a></li>
+            <li><a href="#">WordPress</a></li>
+            <li><a href="#">HTML5</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Angular</a></li>
+        </ul>
+    </li>
     <a class="item2 nav-link" routerLink="login" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <img id="boton-login" src="assets/images/login.png" alt="Icono Login"></a>
 </nav>
+
+<script type="text/javascript">
+    $(".toggle-btn").click(function() {
+        $(this).toggleClass("fa-times");
+        $(".nav-menus").toggleClass("active");
+    });
+</script>
