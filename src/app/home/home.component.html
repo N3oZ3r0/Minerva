@@ -8,143 +8,142 @@
     <div class="row">
         <br><br><br>
     </div>
+    <br>
     <div class="row">
-            <br>
-            <div class="input-group rounded">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                <span class="input-group-text" id="search-addon">
-              <i class="fas fa-search"></i>
+        <div class="input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <span class="input-group-text" id="search-addon">
+              <a routerLink="resultadobusqueda" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+              <i class="fas fa-search"></i></a>
             </span>
-            </div>
-            <br>
+        </div>
     </div>
+    <br>
     <div class="row">
-            <h1>Más descargados</h1>
-            <div class="swiper-container border">
-                <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
+        <h2>Más descargados</h2>
+        <div class="swiper-container border">
+            <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
               clickable: true
             }" class="mySwiper">
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 1</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 2</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 3</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 4</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 5</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 6</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 7</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 8</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 9</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                </swiper>
-            </div>
-    </div>
-    <div class="row">
-        <br><br><br>
-    </div>
-    <div class="row">
-            <h1>Añadidos recientemente</h1>
-            <div class="swiper-container border">
-                <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
-            clickable: true
-          }" class="mySwiper">
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 1</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 2</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 3</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 4</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 5</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 6</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 7</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 8</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                    <ng-template swiperSlide>
-                        <div>
-                            <p>PUTO SWIPER 9</p>
-                            <br>
-                        </div>
-                    </ng-template>
-                </swiper>
-            </div>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte1.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+            </swiper>
         </div>
+    </div>
+    <div class="row ">
+        <br>
+    </div>
+    <div class="row ultimarow">
+        <h2>Añadidos recientemente</h2>
+        <div class="swiper-container border ">
+            <swiper [slidesPerView]="3 " [spaceBetween]="30 " [pagination]="{ clickable: true } " class="mySwiper ">
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div>
+                        <a routerLink="otroapunte" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <img class="apunte" src="assets/images/apunte2.png " alt="mini-imagen de apunte"></a>
+                    </div>
+                </ng-template>
+            </swiper>
+        </div>
+    </div>
 </div>

@@ -25,6 +25,8 @@ import { UserComponent } from './user/user.component';
 import { FriendsComponent } from './friends/friends.component';
 import { FavFilesComponent } from './fav-files/fav-files.component';
 import { WalletComponent } from './wallet/wallet.component';
+import { ShowOtherFileComponent } from './show-other-file/show-other-file.component';
+import { ResultSearchComponent } from './result-search/result-search.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,9 @@ import { WalletComponent } from './wallet/wallet.component';
     UserComponent,
     FriendsComponent,
     FavFilesComponent,
-    WalletComponent
+    WalletComponent,
+    ShowOtherFileComponent,
+    ResultSearchComponent
   ],
   imports: [
     BrowserModule,

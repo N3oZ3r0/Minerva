@@ -6,6 +6,8 @@ import { LikeComponent} from './like/like.component';
 import { BarsComponent} from './bars/bars.component';
 import { LoginComponent} from './login/login.component';
 import { RegisterComponent} from './register/register.component';
+import { ShowOtherFileComponent} from './show-other-file/show-other-file.component';
+import { ResultSearchComponent} from './result-search/result-search.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch:"full"},
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'estadisticas', component: BarsComponent, pathMatch:"full"},
   { path: 'login', component: LoginComponent, pathMatch:"full"},
   { path: 'register', component: RegisterComponent, pathMatch:"full"},
+  { path: 'otroapunte', component: ShowOtherFileComponent, pathMatch:"full"},
+  { path: 'resultadobusqueda', component: ResultSearchComponent, pathMatch:"full"},
 ];
 
 @NgModule({

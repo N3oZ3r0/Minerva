@@ -1,0 +1,51 @@
+<swiper [direction]="'vertical'" [slidesPerView]="'auto'" [freeMode]="true" [scrollbar]="true" [grabCursor]="true" class="mySwiper">
+    <ng-template swiperSlide>
+        <form>
+            <div class="container">
+                <div class="row"><br><br><br></div>
+                <div class="row rowRegister px-3 mb-4">
+                    <p class=" titleRegister text-center">RESULTADOS BUSQUEDA</p>
+                </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+            <h6 class="mb-0 text-sm">Nombre*</h6>
+        </label> <input class="mb-4" type="text" name="nombre" placeholder="Escribe tu nombre..." required> </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+            <h6 class="mb-0 text-sm">Apellido*</h6>
+        </label> <input type="text" name="apellido" placeholder="Escribe tu apellido..." required> </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+            <h6 class="mb-0 text-sm">Usuario*</h6>
+        </label> <input type="text" name="usuario" placeholder="Escribe tu usuario..." required> </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+        <h6 class="mb-0 text-sm">Centro de estudios</h6>
+    </label> <input type="text" name="centro" placeholder="Escribe tu centro de estudios..."> </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+        <h6 class="mb-0 text-sm">Titulacion</h6>
+    </label> <input type="text" name="titulacion" placeholder="Escribe tu titulacion..."> </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+        <h6 class="mb-0 text-sm">Curso</h6>
+    </label> <input type="text" name="curso" placeholder="Escribe tu curso..."> </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+        <h6 class="mb-0 text-sm">Email*</h6>
+    </label> <input type="email" name="email" placeholder="Escribe tu email..." required> </div>
+                <div class="row px-3 rowRegiste form-groupr"> <label class="mb-1">
+        <h6 class="mb-0 text-sm">Contraseña*</h6>
+    </label> <input type="password" name="password" placeholder="Escribe tu contraseña..." required> </div>
+                <div class="row px-3 rowRegister form-group"> <label class="mb-1">
+        <h6 class="mb-0 text-sm">Repetir contraseña*</h6>
+    </label> <input type="password" name="passwordR" placeholder="Escribe tu contraseña de nuevo..." required> </div>
+                <br>
+                <div class="row mb-3 px-3 justify-content-around rowRegisterBottom">
+                    <div class="col-4 colreg">
+                        <a class="linkRegister">Iniciar sesion...</a>
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#confirmAccount">Registrar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+    </ng-template>
+</swiper>
