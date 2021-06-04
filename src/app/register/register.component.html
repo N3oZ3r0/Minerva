@@ -2,7 +2,7 @@
     <ng-template swiperSlide>
         <form>
             <div class="container">
-                <div class="row"><br><br><br></div>
+                <div class="row"><br><br><br><br></div>
                 <div class="row rowRegister px-3 mb-4">
                     <p class=" titleRegister text-center">REGISTRO</p>
                 </div>
@@ -39,7 +39,7 @@
                 <br>
                 <div class="row mb-3 px-3 justify-content-around rowRegisterBottom">
                     <div class="col-4 colreg">
-                        <a class="linkRegister">Iniciar sesion...</a>
+                        <a class="linkRegister" routerLink="../login" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Iniciar sesion...</a>
                     </div>
                     <div class="col-4">
                         <button type="submit" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#confirmAccount">Registrar</button>
@@ -61,7 +61,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-div-container">
-                    <img src="assets/images/files.png" class="images img-fluid img-modal">
+                    <img src="assets/images/mail.png" class="images img-fluid img-modal">
                     <p class="title-modal">Email enviado</p>
                     <p class="text-modal">Le hemos enviado un email, revíselo y confirme la creación de la cuenta</p>
                 </div>

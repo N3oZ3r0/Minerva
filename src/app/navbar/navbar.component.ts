@@ -8,6 +8,8 @@ import { FormGroup, FormControl, Validators} from '@angular/forms';
 })
 export class NavbarComponent implements OnInit {
 
+  login=true;
+
   constructor() { }
 
   ngOnInit(): void {
