@@ -30,18 +30,22 @@
     border-color: black;
     width: 220px;
     float: left;
+    font-weight:500;
 }
 
 .friend-user-text {
     border: 2px;
     border-color: black;
-    background-color: cornflowerblue;
+    background-color: #91bcbe;
     border-radius: 5px;
     padding: 5px;
     width: 220px;
     float: right;
+    font-weight:500;
 }
-
-.my-user-p {}
-
-.friend-user-p {}
+.friend-user-p {
+    display: block;
+    margin:auto;
+    float:right;
+    margin-bottom: 8px;
+}
