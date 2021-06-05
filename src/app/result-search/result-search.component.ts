@@ -11,5 +11,8 @@ export class ResultSearchComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  getlogin(){
+    return(localStorage.getItem("login"));
+  }
 }

@@ -1,5 +1,5 @@
 <nav class="navbar" aria-label="First navbar example">
-    <a class="item1"><img id="logo" src="assets/images/logo.png" alt="Logo Minerva"></a>
+    <a class="item1 nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><img id="logo" src="assets/images/logo.png" alt="Logo Minerva"></a>
 
     <a *ngIf="getlogin()=='false'" class="item2 nav-link" routerLink="login" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <img id="boton-login" src="assets/images/login.png" alt="Icono Login"></a>
