@@ -11,5 +11,4 @@ export class LikeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

@@ -1,55 +1,36 @@
-<style>
-    .p-container {
-        padding-right: 20px;
-    }
-
-    .papelera-img {
-        width: 30px;
-        height: 30px;
-        float: right;
-        margin-right: 25px;
-    }
-
-    .card-img-top {
-        margin: auto;
-        display: block;
-        max-width: 300px;
-        max-height: 400px;
-    }
-
-    .link-apunte {
-        text-decoration: none;
-        font-size: 21px;
-    }
-
-    .precio-apunte {
-        font-size: 20px;
-    }
-
-    .inicial-apunte {
-        margin-left: 25px;
-        margin-top: 10px;
-    }
-
-    .descripcion-general-apunte {
-        padding-top: 10px;
-        margin-left: 25px;
-    }
-</style>
 <br>
 <br>
 <br>
 <br>
 <div class="p-container col-xl-12 col-lg-12 col-md-12 mb-4">
-    <img href="#" src="assets/images/home.png" alt="foto apunte" class="img-fluid images card-img-top">
+    <img href="#" src="assets/images/apunte1.png" alt="foto apunte" class="img-fluid images card-img-top">
     <div class="inicial-apunte col-xl-3 col-lg-4 col-md-6 mb-4">
         <a href="#" class="link-apunte text-dark">Nombre del apunte</a>
-        <img href="#" src="assets/images/files.png" class="images papelera-img">
+        <img href="#" src="assets/images/chat.png" class="images papelera-img">
+        <img href="#" src="assets/images/buy.png" class="images papelera-img">
+        <img href="#" src="assets/images/likeadd.png" class="images papelera-img">
     </div>
     <div class="descripcion-general-apunte">
-        <p class="categoria-apunte">Categoria del apunte</p>
-        <p class="precio-apunte">XX.xx€</p>
-        <p class="descripcion-apunte">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="row">
+            <div class="col">
+                <p class="categoria-apunte">Categoria del apunte</p>
+                <br>
+                <br>
+                <p class="precio-apunte">XX.xx€</p>
+            </div>
+            <div class="col">
+                <a routerLink="../usuario" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                    <div class="card text-center">
+                        <img src="assets/images/avatar.png" class="image-avatar">
+                        <div class="card-body">
+                            <p class="card-text">Usuario.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <p class="descripcion-apunte">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
     </div>
 </div>
 <br>

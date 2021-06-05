@@ -1,0 +1,52 @@
+.p-container {
+    padding-right: 20px;
+}
+
+.papelera-img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 25px;
+}
+
+.card-img-top {
+    margin: auto;
+    display: block;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.link-apunte {
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.precio-apunte {
+    font-size: 20px;
+}
+
+.inicial-apunte {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.descripcion-general-apunte {
+    padding-top: 10px;
+    margin-left: 25px;
+}
+
+.card {
+    border: none;
+    align-items: center !important;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #3C6E71;
+}
