@@ -1,7 +1,8 @@
 <form>
+    <br><br><br>
     <div class="container-fluid mx-auto">
         <div class="row rowRegister px-3 mb-4">
-            <p class=" titleRegister text-center">BUSQUEDA</p>
+            <p class=" titleRegister text-center">Búsqueda</p>
         </div>
         <div class="row px-3 rowRegister form-group"> <label class="mb-1">
               <h6 class="mb-0 text-sm">Nombre del apunte</h6>
@@ -17,20 +18,20 @@
           </select>
         </div>
         <div class="row mb-4 form-inline">
-            <div class="col-6 rowRegister form-group"> <label class="mb-1">
+            <div class="col-7 rowRegister form-group"> <label class="mb-1">
               <h6 class="p-precio mb-0 text-sm">Precio desde...</h6>
           </label>
-                <p class="precio-txt"><input class="input-precio" type="text" name="precio" placeholder="XX.xx" required> €</p>
+                <p class="precio-txt"><input class="input-precio" type="text" name="precio" placeholder="XX.xx€" required></p>
             </div>
-            <div class="col-precio col-6 rowRegister form-group"> <label class="mb-1">
+            <div class="col-precio col-5 rowRegister form-group"> <label class="mb-1">
               <h6 class="p-precio mb-0 text-sm">...hasta</h6>
           </label>
-                <p class="precio-txt"><input class="input-precio" type="text" name="precio" placeholder="XX.xx" required> €</p>
+                <p class="precio-txt"><input class="input-precio" type="text" name="precio" placeholder="XX.xx€" required></p>
             </div>
         </div>
         <div class="row mb-3 px-3 rowRegisterBottom">
             <div class="col-md-12 text-center">
-                <a routerLink="../resultadobusqueda" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                <a class="router" routerLink="../resultadobusqueda" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
                     <button type="submit" class="btn btn-yellow">Buscar</button></a>
             </div>
         </div>

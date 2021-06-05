@@ -78,3 +78,6 @@ option {
 .col-precio {
     float: right;
 }
+.router{
+    text-decoration: none;
+}
