@@ -1,0 +1,15 @@
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 25px;
+    color: #3C6E71;
+}
+
+.chart-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+}

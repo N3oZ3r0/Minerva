@@ -1,10 +1,16 @@
 <footer class="navbar" aria-label="First navbar example">
     <a class="item1 nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <img id="boton-home" src="assets/images/home.png" alt=""></a>
-    <a class="item2 nav-link" routerLink="favoritos" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    <a *ngIf="getlogin()=='true'" class="item2 nav-link" routerLink="favoritos" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <img id="boton-like" src="assets/images/like.png" alt=""></a>
-    <a class="item3 nav-link" routerLink="apuntes" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    <a *ngIf="getlogin()=='false'" class="item2 nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <img id="boton-like" src="assets/images/like.png" alt=""></a>
+    <a *ngIf="getlogin()=='true'" class="item3 nav-link" routerLink="apuntes" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <img id="boton-files" src="assets/images/files.png" alt=""></a>
-    <a class="item4 nav-link" routerLink="estadisticas" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    <a *ngIf="getlogin()=='false'" class="item3 nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <img id="boton-files" src="assets/images/files.png" alt=""></a>
+    <a *ngIf="getlogin()=='true'" class="item4 nav-link" routerLink="estadisticas" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <img id="boton-bars" src="assets/images/bars.png" alt=""></a>
+    <a *ngIf="getlogin()=='false'" class="item4 nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <img id="boton-bars" src="assets/images/bars.png" alt=""></a>
 </footer>

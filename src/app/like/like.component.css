@@ -1,28 +1,67 @@
-.file-row {
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+        .file-row {
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
 
-.img-icon {
-    float: left;
-    height: 40px;
-    width: 40px;
-}
+        .img-icon {
+            float: left;
+            height: 40px;
+            width: 40px;
+        }
 
-.subtitle {
-    margin-top: 5px;
-    font-size: 17px;
-}
+        .subtitle {
+            margin-top: 5px;
+            font-size: 17px;
+        }
 
-.title {
-    font-size: 20px;
-    margin-top: 8px;
-    margin-bottom: -2px;
-}
+        .title {
+            font-size: 25px;
+            color: #3C6E71;
+            margin-bottom: 2px !important;
+        }
 
-.img-apunte {
-    /* float: left; */
-    height: 60px;
-    width: 60px;
-}
+        .img-apunte {
+            /* float: left; */
+            height: 60px;
+            width: 60px;
+        }
+
+        .container-title {
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 20px;
+        }
+
+        .container-body {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .card {
+            border: none;
+            align-items: center !important;
+            padding-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .swiper-slide {
+            margin-right: 5px;
+        }
+
+        .swiper-wrapper {
+            margin-right: 5px;
+        }
+
+        .image-avatar {
+            width: 50px;
+            height: 50px;
+        }
+
+        .card-body {
+            padding: 5px;
+        }
+
+        .apunte {
+            margin-bottom: 0px !important;
+        }

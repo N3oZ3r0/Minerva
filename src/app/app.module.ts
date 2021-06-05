@@ -27,6 +27,7 @@ import { FavFilesComponent } from './fav-files/fav-files.component';
 import { WalletComponent } from './wallet/wallet.component';
 import { ShowOtherFileComponent } from './show-other-file/show-other-file.component';
 import { ResultSearchComponent } from './result-search/result-search.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { ResultSearchComponent } from './result-search/result-search.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SwiperModule
+    SwiperModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

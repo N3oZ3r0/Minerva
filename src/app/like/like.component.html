@@ -1,125 +1,105 @@
-<div class="container-fluid">
+<div class="container-title mx-auto">
     <div class="row"><br><br><br></div>
-    <h1 class="title">Favoritos</h1>
+    <div class="row">
+        <p class="title text-center">FAVORITOS</p>
+    </div>
+</div>
+<div class="container-body">
     <div class="col-12 file-row">
         <img src="assets/images/profiles.png" class="images img-fluid img-icon" alt="icono perfiles">
         <p class="subtitle">Perfiles</p>
-    </div>
-    <div class="row">
-        <div class="swiper-container border">
-            <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
-          clickable: true
-        }" class="mySwiper">
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                            <p class="card-text">With content.</p>
-                        </div>
-                    </div>
-                </ng-template>
-            </swiper>
-        </div>
-        <!-- <div class="col-4">
-            <div class="card">
-                <div class="card-body">
-                    <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                    <p class="card-text">With content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="card">
-                <div class="card-body">
-                    <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                    <p class="card-text">With content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="card">
-                <div class="card-body">
-                    <img src="assets/images/avatar.png" class="images img-fluid img-icon">
-                    <p class="card-text">With content.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-        <div class="col-12 file-row">
-            <img src="assets/images/favfiles.png" class="images img-fluid img-icon" alt="icono apuntes favoritos">
-            <p class="subtitle">Apuntes</p>
-        </div>
         <div class="row">
             <div class="swiper-container border">
                 <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
           clickable: true
         }" class="mySwiper">
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template swiperSlide>
+                        <div class="card text-center">
+                            <img src="assets/images/avatar.png" class="image-avatar">
+                            <div class="card-body">
+                                <p class="card-text">Usuario.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                </swiper>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 file-row">
+        <img src="assets/images/favfiles.png" class="images img-fluid img-icon" alt="icono apuntes favoritos">
+        <p class="subtitle">Apuntes</p>
+        <div class="row">
+            <div class="swiper-container border">
+                <swiper [slidesPerView]="3" [spaceBetween]="30" [pagination]="{
+          clickable: true
+        }" class="mySwiper">
+                    <ng-template swiperSlide>
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -133,7 +113,7 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -147,7 +127,7 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -161,7 +141,7 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -175,7 +155,7 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -189,7 +169,7 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -203,7 +183,7 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -217,13 +197,13 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -231,13 +211,13 @@
                         </div>
                     </ng-template>
                     <ng-template swiperSlide>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card apunte">
                             <div class="card-body">
                                 <img src="assets/images/apunte1.png" class="images img-fluid img-apunte">
                                 <p class="card-text">Apunte</p>
@@ -248,3 +228,4 @@
             </div>
         </div>
     </div>
+</div>

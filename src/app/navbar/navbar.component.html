@@ -1,85 +1,70 @@
 <nav class="navbar" aria-label="First navbar example">
     <a class="item1"><img id="logo" src="assets/images/logo.png" alt="Logo Minerva"></a>
 
-    <a *ngIf="login==false" class="item2 nav-link" routerLink="login" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    <a *ngIf="getlogin()=='false'" class="item2 nav-link" routerLink="login" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <img id="boton-login" src="assets/images/login.png" alt="Icono Login"></a>
-    <div *ngIf="login==true" class="btn-group">
-        <a class="btn item2 nav-link" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+
+    <div *ngIf="getlogin()=='true'" class="dropdown me-1">
+        <a type="button" class="item2 nav-link" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
             <img id="boton-login" src="assets/images/pulldown.png" alt="Icono Login">
         </a>
-        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-            <div class="container">
-                <div class="row-4">
-                    <div class="col-4">
+        <ul class="dropdown-menu multi-column columns-2">
+            <div class="row">
+                <div class="col">
+                    <ul class="multi-column-dropdown">
                         <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
+                            <a routerLink="perfil" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu " src="assets/images/userinfo.png " alt="Icono Login ">
                             </a>
                         </li>
-                    </div>
-                    <div class="col-4">
                         <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
+                            <a routerLink="archivosfav" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu " src="assets/images/favfiles.png " alt="Icono Login "></a>
+                        </li>
+                        <li>
+                            <a routerLink="cartera" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu" src="assets/images/creditcontrol.png " alt="Icono Login ">
                             </a>
                         </li>
-                    </div>
-                    <div class="col-4">
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
-                            </a>
-                        </li>
-                    </div>
+                    </ul>
                 </div>
-                <div class="row-4">
-                    <div class="col-4">
+                <div class="col">
+                    <ul class="multi-column-dropdown ">
                         <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
+                            <a routerLink="apuntes" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu " src="assets/images/files.png " alt="Icono Login ">
                             </a>
                         </li>
-                    </div>
-                    <div class="col-4">
                         <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
+                            <a routerLink="estadisticas" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu " src="assets/images/bars.png " alt="Icono Login "></a>
+                        </li>
+                        <li>
+                            <a routerLink="chat" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu" src="assets/images/allchat.png " alt="Icono Login ">
                             </a>
                         </li>
-                    </div>
-                    <div class="col-4">
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
-                            </a>
-                        </li>
-                    </div>
+                    </ul>
                 </div>
-                <div class="row-4">
-                    <div class="col-4">
+                <div class="col">
+                    <ul class="multi-column-dropdown ">
                         <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
+                            <a routerLink="amigos" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu " src="assets/images/profiles.png " alt="Icono Login ">
                             </a>
                         </li>
-                    </div>
-                    <div class="col-4">
                         <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
+                            <a routerLink="busqueda" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true} ">
+                                <img class="boton-menu " src="assets/images/advancesearch.png " alt="Icono Login "></a>
+                        </li>
+                        <li>
+                            <a (click)="setloginfalse()" routerLink="" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true}">
+                                <img class=" boton-menu " src="assets/images/logout.png " alt="Icono Login ">
                             </a>
                         </li>
-                    </div>
-                    <div class="col-4">
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                <img id="boton-login" src="assets/images/userinfo.png" alt="Icono Informacion Usuario">
-                            </a>
-                        </li>
-                    </div>
+                    </ul>
                 </div>
             </div>
-
         </ul>
     </div>
 </nav>

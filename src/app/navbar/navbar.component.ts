@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-navbar',
@@ -8,11 +7,21 @@ import { FormGroup, FormControl, Validators} from '@angular/forms';
 })
 export class NavbarComponent implements OnInit {
 
-  login=true;
-
-  constructor() { }
+  getlogin(){
+    return(localStorage.getItem("login"));
+  }
+  setlogintrue(){
+    localStorage.setItem("login", "true");
+  }
+  setloginfalse(){
+    localStorage.setItem("login", "false");
+  }
+  constructor() {
+  }
 
   ngOnInit(): void {
+    localStorage.setItem("login", "false");
   }
 
 }
+
