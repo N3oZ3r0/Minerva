@@ -16,6 +16,8 @@ import { ChatUserComponent} from './chat-user/chat-user.component';
 import { FriendsComponent} from './friends/friends.component';
 import { UserComponent} from './user/user.component';
 import { SearchComponent} from './search/search.component';
+import { NewfileComponent} from './newfile/newfile.component';
+import { ShowMyFileComponent} from './show-my-file/show-my-file.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch:"full"},
@@ -34,6 +36,8 @@ const routes: Routes = [
   { path: 'amigos', component: FriendsComponent, pathMatch:"full"},
   { path: 'usuario', component: UserComponent, pathMatch:"full"},
   { path: 'busqueda', component: SearchComponent, pathMatch:"full"},
+  { path: 'nuevoapunte', component: NewfileComponent, pathMatch:"full"},
+  { path: 'miapunte', component: ShowMyFileComponent, pathMatch:"full"},
 ];
 
 @NgModule({
