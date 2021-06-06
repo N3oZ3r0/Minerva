@@ -12,7 +12,7 @@
                 </a>
             </div>
             <div class="img-div-2">
-                <img src="assets/images/likeadd.png" class="images img-fluid imgs">
+                <img href="#" data-bs-toggle="modal" data-bs-target="#like" src="assets/images/likeadd.png" class="images img-fluid imgs">
             </div>
         </div>
     </div>
@@ -124,6 +124,22 @@
                         </a>
                     </ng-template>
                 </swiper>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal like-->
+<div class="modal fade" id="like" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-div-top">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-div-container">
+                    <img src="assets/images/like.png" class="images img-fluid img-modal">
+                    <p class="title-modal">Añadido a favoritos</p>
+                </div>
             </div>
         </div>
     </div>
