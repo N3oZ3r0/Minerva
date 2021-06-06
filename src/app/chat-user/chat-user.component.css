@@ -18,34 +18,42 @@
 }
 
 .my-user {
-    float: left;
+    float: right;
 }
 
 .friend-user {
-    float: right;
+    float: left;
 }
 
 .my-user-text {
     border: 2px;
     border-color: black;
+    color: rgb(209, 209, 209);
+    background-color: #3C6E71;
+    border-radius: 10px;
     width: 220px;
-    float: left;
-    font-weight:500;
+    float: right;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 .friend-user-text {
     border: 2px;
     border-color: black;
     background-color: #91bcbe;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     width: 220px;
-    float: right;
-    font-weight:500;
+    float: left;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
-.friend-user-p {
+
+
+/* .friend-user-p {
     display: block;
-    margin:auto;
-    float:right;
+    margin: auto;
+    float: right;
     margin-bottom: 8px;
-}
+} */
