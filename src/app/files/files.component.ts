@@ -11,5 +11,7 @@ export class FilesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  getlogin(){
+    return(localStorage.getItem("login"));
+  }
 }
