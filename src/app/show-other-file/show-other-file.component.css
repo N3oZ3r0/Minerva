@@ -2,11 +2,11 @@
     padding-right: 20px;
 }
 
-.papelera-img {
+.icon-img {
     width: 30px;
     height: 30px;
     float: right;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 .card-img-top {
@@ -18,7 +18,7 @@
 
 .link-apunte {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .precio-apunte {
@@ -49,4 +49,27 @@
 a {
     text-decoration: none;
     color: #3C6E71;
+}
+.modal-div-top{
+    float: right;
+}
+.modal-div-container{
+    margin: auto;
+	display:block;
+}
+.img-modal{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+	display:block;
+}
+.text-modal{
+    margin-top: 8px;
+    text-align: center;
+}
+.title-modal{
+    font-size: 19px;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: bold;
 }
