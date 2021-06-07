@@ -58,7 +58,7 @@
                                 <img class="boton-menu " src="assets/images/advancesearch.png " alt="Icono Login "></a>
                         </li>
                         <li>
-                            <a (click)="setloginfalse()" routerLink="" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true}">
+                            <a (click)="setloginfalse()" routerLink="" routerLinkActive="active " [routerLinkActiveOptions]="{exact: true}" data-bs-toggle="modal" data-bs-target="#confirmLogout">
                                 <img class=" boton-menu " src="assets/images/logout.png " alt="Icono Login ">
                             </a>
                         </li>
@@ -68,7 +68,23 @@
         </ul>
     </div>
 </nav>
-
+<!-- Modal confirm logout-->
+<div class="modal fade" id="confirmLogout" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-div-top">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-div-container">
+                    <img src="assets/images/logout.png" class="images img-fluid img-modal">
+                    <p class="title-modal">Sesion Cerrada</p>
+                    <p class="text-modal">Esperamos que vuelvas pronto</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript ">
     $(".toggle-btn ").click(function() {
         $(this).toggleClass("fa-times ");
