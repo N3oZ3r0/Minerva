@@ -89,7 +89,8 @@ option {
     float: right;
 }
 .modal-div-container{
-    display: inline-block;
+    margin: auto;
+	display:block;
 }
 .img-modal{
     height: 50px;
