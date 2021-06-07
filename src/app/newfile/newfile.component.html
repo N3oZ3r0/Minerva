@@ -1,16 +1,16 @@
-<div class="container-fluid">
-    <div class="row"><br><br><br></div>
-    <form>
+<form>
+    <div class="container-fluid">
+        <div class="row"><br><br><br></div>
         <div class="container-fluid mx-auto">
             <div class="row rowRegister px-3 mb-4">
                 <p class=" titleRegister text-center">SUBIR DOCUMENTO</p>
             </div>
             <div class="row px-3 rowRegister form-group"> <label class="mb-1">
-              <h6 class="mb-0 text-sm">Nombre del apunte</h6>
-          </label> <input class="mb-4" type="text" name="nombre-apunte" placeholder="Escriba el nombre del apunte..." required> </div>
+            <h6 class="mb-0 text-sm">Nombre del apunte</h6>
+        </label> <input class="mb-4" type="text" name="nombre-apunte" placeholder="Escriba el nombre del apunte..." required> </div>
             <div class="row px-3 rowRegister form-group"> <label class="mb-1">
-              <h6 class="mb-0 text-sm">Descripción</h6>
-          </label> <input class="input-description" type="text" name="description" placeholder="Escriba una descripción del documento..." required> </div>
+            <h6 class="mb-0 text-sm">Descripción</h6>
+        </label> <input class="input-description" type="text" name="description" placeholder="Escriba una descripción del documento..." required> </div>
             <div class="row px-3 rowRegister form-group">
                 <h6 class="mb-0 text-sm categoria-text">Categoría</h6>
                 <select class="form-control">
@@ -19,15 +19,20 @@
                 <option>Biologia</option>
                 <option>Fisica</option>
                 <option>Historia</option>
-              </select>
+            </select>
             </div>
             <div class="inicial-apunte col-xl-3 col-lg-4 col-md-6 mb-4">
+<<<<<<< HEAD
                 <img src="assets/images/files.png" class="add-img">
                 <a href="#" class="link-apunte text-dark">Subir archivo...</a>
+=======
+                <img data-bs-toggle="modal" data-bs-target="#fileSuccess" src="assets/images/addfile.png" class="add-img">
+                <a data-bs-toggle="modal" data-bs-target="#fileSuccess" class="link-apunte text-dark">Subir archivo...</a>
+>>>>>>> 8e7004bf9a61fa53aa75a03aba4a3cd32a9b2aaf
             </div>
             <div class="row px-3 rowRegister form-group"> <label class="mb-1">
-          <h6 class="mb-0 text-sm">Precio</h6>
-      </label>
+        <h6 class="mb-0 text-sm">Precio</h6>
+    </label>
                 <p class="precio-txt"><input class="input-precio" type="text" name="precio" placeholder="XX.xx" required> €</p>
             </div>
             <div class="row mb-3 px-3 rowRegisterBottom">
@@ -36,8 +41,8 @@
                 </div>
             </div>
         </div>
-    </form>
-</div>
+    </div>
+</form>
 <br>
 <br>
 <br>
@@ -54,6 +59,22 @@
                     <img src="assets/images/check.png" class="images img-fluid img-modal">
                     <p class="title-modal">Apunte subido</p>
                     <p class="text-modal">El nuevo apunte se ha subido correctamente</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Delete account-->
+<div class="modal fade" id="fileSuccess" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-div-top">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-div-container">
+                    <img src="assets/images/check.png" class="images img-fluid img-modal">
+                    <p class="title-modal">Archivo subido</p>
                 </div>
             </div>
         </div>
