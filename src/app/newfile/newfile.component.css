@@ -3,6 +3,7 @@
     padding-right: 20px;
     margin-top: 20px;
 }
+
 .rowRegisterBottom {
     margin-top: 20px;
 }
@@ -85,24 +86,29 @@ option {
 .precio-txt {
     font-size: 20px;
 }
-.modal-div-top{
+
+.modal-div-top {
     float: right;
 }
-.modal-div-container{
+
+.modal-div-container {
     margin: auto;
-	display:block;
+    display: block;
 }
-.img-modal{
+
+.img-modal {
     height: 50px;
     width: 50px;
     margin: auto;
-	display:block;
+    display: block;
 }
-.text-modal{
+
+.text-modal {
     margin-top: 8px;
     text-align: center;
 }
-.title-modal{
+
+.title-modal {
     font-size: 19px;
     margin-top: 12px;
     text-align: center;
